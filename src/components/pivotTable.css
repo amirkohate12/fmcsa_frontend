@@ -1,0 +1,82 @@
+/* General styles for the PivotTable container */
+.pivot-table-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for the search input field */
+.pivot-table-search {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Styles for the group buttons */
+.group-buttons-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.group-buttons-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.group-buttons-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the pivot table itself */
+.pivot-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pivot-table th,
+.pivot-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pivot-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.pivot-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling for the chart container below the table */
+.pivot-chart-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pivot-chart-container canvas {
+    width: 80% !important;
+    height: 400px !important;
+}

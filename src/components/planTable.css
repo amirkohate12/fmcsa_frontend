@@ -1,0 +1,16 @@
+.table-container {
+    margin: 20px;
+}
+
+.MuiTableCell-root {
+    padding: 10px;
+    text-align: center;
+}
+
+.MuiTextField-root {
+    margin-top: 10px;
+}
+
+.MuiTableRow-root:hover {
+    background-color: #f5f5f5;
+}
